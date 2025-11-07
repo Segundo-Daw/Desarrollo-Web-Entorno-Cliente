@@ -22,7 +22,8 @@ console.log(factorial(3));
 */
 
 
-// 3.Función que convierta grados Celsius a Fahrenheit.
+// Ejercicio 3
+// Función que convierta grados Celsius a Fahrenheit.
 
 /*
 
@@ -35,7 +36,8 @@ console.log(variable);
 
 */
 
-// 4. Función esPrimo() que devuelva booleano.
+// Ejercicio 4
+// Función esPrimo() que devuelva booleano.
 
 /*
 
@@ -56,7 +58,8 @@ console.log(variable);
 
 */
 
-// 5. Función que cuente el número de vocales de una palabra.
+// Ejercicio 5 
+// Función que cuente el número de vocales de una palabra.
 
 /*
 
@@ -75,7 +78,8 @@ console.log(countVowels("pingüino"));
 
 */
 
-// 6. Función que reciba tres parámetros (a,b,c) y devuelva un array con las soluciones de una ecuación de segundo grado. (-b+-sqrt(b**2-4*a*c)/2*a)
+// Ejercicio 6 
+// Función que reciba tres parámetros (a,b,c) y devuelva un array con las soluciones de una ecuación de segundo grado. (-b+-sqrt(b**2-4*a*c)/2*a)
 
 /*
 
@@ -99,7 +103,8 @@ console.log(solutions);
 
 */
 
-// 7. Crea una función que reciba un número y un callback. Si el número es mayor a 10, ejecuta el callback.
+// Ejercicio 7 
+// Crea una función que reciba un número y un callback. Si el número es mayor a 10, ejecuta el callback.
 
 /*
 
@@ -115,7 +120,8 @@ executeIfGreaterThanTen(15, () => {
 
 */
 
-// 8. Función que sume todos los elementos introducidos como parámetros, sin preestablecer el número de parámetros.
+// Ejercicio 8 
+// Función que sume todos los elementos introducidos como parámetros, sin preestablecer el número de parámetros.
 
 /*
 
@@ -128,7 +134,8 @@ console.log(sum);
 
 */
 
-// 9. Función que reciba un array de palabras y devuelva solo las que son palíndromos.
+// Ejercicio 9  
+// Función que reciba un array de palabras y devuelva solo las que son palíndromos.
 
 /*
 
