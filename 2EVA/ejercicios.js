@@ -61,7 +61,7 @@ let num1 = Number(prompt("Introduce un número: "));
 let num2 = Number(prompt("Introduce un número: "));
 
 alert(aleatorio(num1,num2));
-*/
+
 
 //Ejercicio 5 - Creamos el objeto punto, que tiene como atributos el valor en eje X y el valor en eje Y (valX y ValY). Creamos una función que reciba dos objetos de tipo punto como parámetros y clacule la distancia entre ellos. BONUS
 
@@ -74,7 +74,6 @@ class Punto {
 
 }
 
-
 function calcularDistancia(pA, pB) {
         const distanciaX = pB.valX - pA.valX;
         const distanciaY = pB.valY - pA.valY;
@@ -82,10 +81,12 @@ function calcularDistancia(pA, pB) {
         return Math.sqrt((distanciaX**2) + (distanciaY**2));
     }
 
-const punto1 = new Punto (1 , 3);
-const punto2 = new Punto (6 , 3);
+const punto1 = new Punto (4 , 6);
+const punto2 = new Punto (1 , 2);
 
 console.log(calcularDistancia(punto1,punto2));
+*/
 
+//Ejercicio 6- Dada una fecha de cumpleaños determina en qué día de la semana nació y la edad a día de hoy.
 
 
