@@ -62,8 +62,8 @@ setInterval(() => {
 }, 5000);
 */
 
-//Un prompt que pregunte si cambiar de página para llevarnos a otro.html y despues en esa pagina que vuelva a salir un mansaje en el que pregunte si quieres volver a la anterior
-
+// Ejercicio  3 - Un prompt que pregunte si cambiar de página para llevarnos a otro.html y despues en esa pagina que vuelva a salir un mansaje en el que pregunte si quieres volver a la anterior
+/*
 
 const respuesta = confirm("¿Quieres que te mande a otra página?");
 
@@ -72,6 +72,21 @@ if(respuesta){
 }
 
 
+// Ejercicio 4 - Mostrar en consola cuántas páginas hay en el historial del navegador
 
+
+console.log(history.length);
+*/
+// Ejercicio 5 - Utilizar un confirm para preguntar al usuario si quiere ir a la página anterior (reutilizzar algún ejercicio previo)
+
+
+const pregunta = confirm("¿Quieres volver a la página anterior?");
+
+if(pregunta){
+    console.log("El usuario ha aceptado y esta volviendo atrás...")
+    history.back();
+}else{
+    console.log("El usuario ha preferido quedarse en la página")
+}
 
 
